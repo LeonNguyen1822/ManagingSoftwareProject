@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <<meta charset="utf-8" />
+  <meta name="view port" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="GotoGro Sales Record Management"/>
+  <meta name="keywords" content="HTML5, CSS"/>
+  <meta name="author" content="Yasith Kudagamage"/>
+  <title>Edit Sales Records</title>
+  <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1>Edit Sales Record</h1>
+    <form action="edit_sales_record.php" method="POST">
+        <!-- Search or Filter Options -->
+        <label for="rcptid">Search by Receipt ID:</label>
+        <input type="text" id="rcptid" name="rcptid" required>
+        <input type="submit" value="Search">
+    </form>
+
+    <!-- Display Existing Record and Edit Form (Hidden by Default) -->
+    <div id="edit-form" style="display: none;">
+        <form action="editsales.php" method="POST">
+            <label for="Receipt ID">Receipt ID:</label>
+            <input type="text" id="rcptid" name="rcptid" required><br><br>
+     
+            <label for="Member ID">Member ID:</label>
+            <input type="text" id="mbmid" name="mbmid" required><br><br>
+	  
+            <label for="Member Name">Member Name:</label>
+            <input type="text" id="mbmname" name="mbmname" required><br><br>
+  
+            <label for ="Item ID">Item ID:</label>
+	        <input type="text" id="itemid" name="itemid" required><br><br>
+	 
+	        <label for="Item Name">Item Name:</label>
+            <input type="text" id="itemname" name="itemname" required><br><br>
+	 
+	        <label for="Item Price">Item Price:</label>
+            <input type="text" id="itemprice" name="itemprice" required><br><br>
+  
+            <label for="Quantity">Quantity:</label>
+            <input type="text" id="qty" name="qty" required><br><br>
+	 
+	        <label for="Date of Sale">Date of Sale:</label>
+            <input type="text" id="date" name="date" required><br><br>
+        </form>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-border {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style for the back button */
+.back-button {
+    display: inline-block;
+    margin-top: 20px; /* Adjust the margin as needed for spacing */
+    margin-left: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: #e11c0a;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #c13a3a;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.register-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-size: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+    border: none;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 80px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+/* Add the black border to the admin dashboard */
+.admin-top-border {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* ... Previous CSS code ... */
+
+.error-message {
+    color: #f00;
+    font-size: 14px;
+    margin-top: 5px; /* Add space between input and error message */
+
+    transition: opacity 3s ease-in-out;
+}
+
+.staff-message {
+    color: rgb(18, 92, 189);
+    font-size: 14px;
+    margin-top: 5px; /* Add space between input and error message */
+
+    transition: opacity 3s ease-in-out;
+}
+
+
+.input-container:hover .error-message {
+    opacity: 1; /* Show on hover */
+}
+
+/* ... Previous CSS code ... */
+
+
+
+/* Style for the button grid */
+
+.admin_dashboardBorder {
+    margin-top: 70px;
+    text-align: center;
+}

@@ -1,0 +1,1 @@
+SELECT * FROM your_table_name WHERE rating > 8 ORDER BY rating DESC LIMIT 10;

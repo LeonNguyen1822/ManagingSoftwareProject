@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registerStaff_style.css">
+    <title>Register staff page</title>
+</head>
+<body>
+    <div class="admin-top-border">
+        <h1>Admin Dashboard</h1>
+    </div>
+    <a href="../adminDashboardPage/admin_dashboard.html" class="back-button">&#9666; Back to Admin Dashboard</a>
+
+    <div class="container">
+        <div class="register-box">
+        <form id="registerForm">
+            <h3>Register New Staff</h3>
+            <div class="input-container">
+                <label for="newUsername">New Staff Username</label>
+                <input type="text" id="newUsername" name="newUsername" required placeholder="Enter your new username">
+            </div>
+            <div class="input-container">
+                <label for="newPassword">New Staff Password</label>
+                <input type="password" id="newPassword" name="newPassword" required placeholder="Enter your new password">
+            </div>
+
+            <div id="error-message" class="error-message"></div>
+            <div id="staff-message" class="staff-message"></div>
+
+            <button type="submit">Register</button>
+        </form>
+        </div>
+    </div>
+    <script src="register_staff.js"></script> 
+</body>
+</html>

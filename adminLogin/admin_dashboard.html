@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Dashboard</h2>
+        <form id="registerForm">
+            <h3>Register New Staff</h3>
+            <div class="input-container">
+                <label for="newUsername">Username</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+            </div>
+            <div class="input-container">
+                <label for="newPassword">Password</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="admin.js"></script> <!-- Include a separate JavaScript file for admin functionality -->
+</body>
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Catamaran|Maven+Pro|Righteous&display=swap');
+
+body {
+  font-family: 'lato', sans-serif;
+  background-image: url("salesreportimages/background.jpg");
+  background-repeat:no-repeat;
+  background-size:cover; 
+}
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 
+{
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+  small 
+  font-size: 0.5em;
+}
+
+tr{
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+.dwn1{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 40px 82px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.dwn2{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 40px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 50px;
+  float: right;
+}
+
+.dwn3{
+  background-color: #4CAF50;
+  border: black;
+  color: white;
+  padding: 40px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 50px;
+  border-color: white;
+}
+
+.dwn4{
+  background-color: #4CAF50;
+  border: black;
+  color: white;
+  padding: 40px 118px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  cursor: pointer;
+  font-size: 50px;
+  border-color: white;
+}
+
+.dwn5{
+  background-color: #4CAF50;
+  border: black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+  border-color: black;
+}
+
+#main{
+  text-transform:uppercase;
+  font-family: 'Catamaran', sans-serif;
+  font-size:60px;
+  text-align:center;
+  letter-spacing:0.08em;
+  color:#266590; 
+  padding:0px 0px 0px 10px; 
+  margin-bottom: 1px;
+}
+
+.tab1{
+  width: 100%;
+}

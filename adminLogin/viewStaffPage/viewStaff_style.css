@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the back button */
+.back-button {
+    display: inline-block;
+    margin-top: 20px; /* Adjust the margin as needed for spacing */
+    margin-left: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: #e11c0a;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #c13a3a;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul#staff-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for the list item container */
+.list-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    background-color: white;
+}
+
+/* Style for the delete button */
+.delete-button {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #ff0000;
+}
+
+
+ul#staff-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    text-align: center;
+}
+
+ul#staff-list li:last-child {
+    border-bottom: none;
+}
+
+/* Optional: Style the list items with alternate background colors */
+ul#staff-list li:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+ul#staff-list li:hover {
+    background-color: #e0e0e0;
+}

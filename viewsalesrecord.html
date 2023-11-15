@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+  <meta name="view port" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="GotoGro Sales Record Management"/>
+  <meta name="keywords" content="HTML5, CSS"/>
+  <meta name="author" content="Yasith Kudagamage"/>
+  
+  <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+    <title>View Sales Records</title>
+    
+</head>
+<body>
+    <h1>View Sales Records</h1>
+    <!-- Search or Filter Options -->
+    <form action="view_sales_records.php" method="POST">
+        <label for="search">Search by:</label>
+        <select id="search" name="search">
+            <option value="date">Date</option>
+            <option value="product">Product</option>
+            <option value="customer">Customer</option>
+        </select>
+        <input type="text" id="search_term" name="search_term" required>
+        <input type="submit" value="Search">
+    </form>
+
+    
+    <div id="sales_records">
+        
+        <div class="record">
+            <h2>Record ID: 1</h2>
+            
+            <p>Date: 2023-09-26</p>
+            <p>Product: Product Name</p>
+            <p>Quantity: 10</p>
+            <p>Price: $100.00</p>
+            <p>Customer: Customer Name</p>
+        </div>
+    </div>
+
+   
+</body>
+</html>

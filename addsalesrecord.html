@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="view port" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="GotoGro Sales Record Management"/>
+  <meta name="keywords" content="HTML5, CSS"/>
+  <meta name="author" content="Yasith Kudagamage"/>
+  <title>Add Sales Records</title>
+  <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+</head>  
+ <body>
+  <h1>Add a Sales Record</h1>
+   <form action="addsales.php" method="POST">
+      <label for="Receipt ID">Receipt ID:</label>
+      <input type="text" id="rcptid" name="rcptid" required><br><br>
+     
+      <label for="Member ID">Member ID:</label>
+      <input type="text" id="mbmid" name="mbmid" required><br><br>
+	  
+      <label for="Member Name">Member Name:</label>
+      <input type="text" id="mbmname" name="mbmname" required><br><br>
+  
+      <label for ="Item ID">Item ID:</label>
+	  <input type="text" id="itemid" name="itemid" required><br><br>
+	 
+	  <label for="Item Name">Item Name:</label>
+      <input type="text" id="itemname" name="itemname" required><br><br>
+	 
+	  <label for="Item Price">Item Price:</label>
+      <input type="text" id="itemprice" name="itemprice" required><br><br>
+  
+      <label for="Quantity">Quantity:</label>
+      <input type="text" id="qty" name="qty" required><br><br>
+	 
+	  <label for="Date of Sale">Date of Sale:</label>
+      <input type="text" id="date" name="date" required><br><br>
+	  
+	  
+	  <input type="submit" value="Add Sales Record">
+   </form>
+ </body>
+</html>
